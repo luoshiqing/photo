@@ -12,6 +12,15 @@
 		D64750A91DD961AA000C9EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64750A71DD961AA000C9EDA /* Main.storyboard */; };
 		D64750AB1DD961AA000C9EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D64750AA1DD961AA000C9EDA /* Assets.xcassets */; };
 		D64750AE1DD961AA000C9EDA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64750AC1DD961AA000C9EDA /* LaunchScreen.storyboard */; };
+		D64750B61DD96294000C9EDA /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64750B51DD96294000C9EDA /* RootViewController.swift */; };
+		D64750B81DD966E6000C9EDA /* MultiSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64750B71DD966E6000C9EDA /* MultiSelectViewController.swift */; };
+		D64750BA1DD96B8D000C9EDA /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = D64750B91DD96B8D000C9EDA /* add.png */; };
+		D64750BE1DD96E6A000C9EDA /* LSQPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64750BD1DD96E6A000C9EDA /* LSQPhotoViewController.swift */; };
+		D64750C41DD99B6E000C9EDA /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64750C31DD99B6E000C9EDA /* SecViewController.swift */; };
+		D64750CE1DD9B85E000C9EDA /* MyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64750CD1DD9B85E000C9EDA /* MyService.swift */; };
+		D64750DC1DD9BBD6000C9EDA /* PhotoShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64750DB1DD9BBD6000C9EDA /* PhotoShowViewController.swift */; };
+		D64750DF1DD9BF76000C9EDA /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64750DD1DD9BF76000C9EDA /* PhotoCollectionViewCell.swift */; };
+		D64750E01DD9BF76000C9EDA /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64750DE1DD9BF76000C9EDA /* PhotoCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +31,15 @@
 		D64750AA1DD961AA000C9EDA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D64750AD1DD961AA000C9EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D64750AF1DD961AA000C9EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D64750B51DD96294000C9EDA /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D64750B71DD966E6000C9EDA /* MultiSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiSelectViewController.swift; sourceTree = "<group>"; };
+		D64750B91DD96B8D000C9EDA /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		D64750BD1DD96E6A000C9EDA /* LSQPhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LSQPhotoViewController.swift; sourceTree = "<group>"; };
+		D64750C31DD99B6E000C9EDA /* SecViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
+		D64750CD1DD9B85E000C9EDA /* MyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyService.swift; sourceTree = "<group>"; };
+		D64750DB1DD9BBD6000C9EDA /* PhotoShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoShowViewController.swift; sourceTree = "<group>"; };
+		D64750DD1DD9BF76000C9EDA /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		D64750DE1DD9BF76000C9EDA /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +72,16 @@
 		D64750A21DD961AA000C9EDA /* Photo */ = {
 			isa = PBXGroup;
 			children = (
+				D64750BC1DD96E41000C9EDA /* LSQPhotoPickerCtr */,
+				D64750BB1DD96B99000C9EDA /* img */,
 				D64750A31DD961AA000C9EDA /* AppDelegate.swift */,
+				D64750B51DD96294000C9EDA /* RootViewController.swift */,
+				D64750B71DD966E6000C9EDA /* MultiSelectViewController.swift */,
+				D64750C31DD99B6E000C9EDA /* SecViewController.swift */,
+				D64750DB1DD9BBD6000C9EDA /* PhotoShowViewController.swift */,
+				D64750DD1DD9BF76000C9EDA /* PhotoCollectionViewCell.swift */,
+				D64750DE1DD9BF76000C9EDA /* PhotoCollectionViewCell.xib */,
+				D64750CD1DD9B85E000C9EDA /* MyService.swift */,
 				D64750A51DD961AA000C9EDA /* ViewController.swift */,
 				D64750A71DD961AA000C9EDA /* Main.storyboard */,
 				D64750AA1DD961AA000C9EDA /* Assets.xcassets */,
@@ -62,6 +89,22 @@
 				D64750AF1DD961AA000C9EDA /* Info.plist */,
 			);
 			path = Photo;
+			sourceTree = "<group>";
+		};
+		D64750BB1DD96B99000C9EDA /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D64750B91DD96B8D000C9EDA /* add.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		D64750BC1DD96E41000C9EDA /* LSQPhotoPickerCtr */ = {
+			isa = PBXGroup;
+			children = (
+				D64750BD1DD96E6A000C9EDA /* LSQPhotoViewController.swift */,
+			);
+			name = LSQPhotoPickerCtr;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +167,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64750BA1DD96B8D000C9EDA /* add.png in Resources */,
+				D64750E01DD9BF76000C9EDA /* PhotoCollectionViewCell.xib in Resources */,
 				D64750AE1DD961AA000C9EDA /* LaunchScreen.storyboard in Resources */,
 				D64750AB1DD961AA000C9EDA /* Assets.xcassets in Resources */,
 				D64750A91DD961AA000C9EDA /* Main.storyboard in Resources */,
@@ -137,8 +182,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D64750BE1DD96E6A000C9EDA /* LSQPhotoViewController.swift in Sources */,
+				D64750B81DD966E6000C9EDA /* MultiSelectViewController.swift in Sources */,
+				D64750DC1DD9BBD6000C9EDA /* PhotoShowViewController.swift in Sources */,
+				D64750CE1DD9B85E000C9EDA /* MyService.swift in Sources */,
+				D64750C41DD99B6E000C9EDA /* SecViewController.swift in Sources */,
+				D64750DF1DD9BF76000C9EDA /* PhotoCollectionViewCell.swift in Sources */,
 				D64750A61DD961AA000C9EDA /* ViewController.swift in Sources */,
 				D64750A41DD961AA000C9EDA /* AppDelegate.swift in Sources */,
+				D64750B61DD96294000C9EDA /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +313,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = Photo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.Photo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -275,11 +328,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = Photo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.Photo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -302,6 +356,7 @@
 				D64750B41DD961AA000C9EDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
